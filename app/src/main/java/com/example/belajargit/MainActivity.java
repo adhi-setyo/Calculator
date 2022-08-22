@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void kurang(View v){
-        Intent intent = new Intent(MainActivity.this, Tambah.class);
+        Intent intent = new Intent(MainActivity.this, kurang.class);
         startActivity(intent);
     }
 }
