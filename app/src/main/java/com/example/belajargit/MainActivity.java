@@ -18,4 +18,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, Tambah.class);
         startActivity(intent);
     }
+
+    public void kurang(View v){
+        Intent intent = new Intent(MainActivity.this, Tambah.class);
+        startActivity(intent);
+    }
 }
