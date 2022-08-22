@@ -20,6 +20,7 @@
         android:layout_width="263dp"
         android:layout_height="59dp"
         android:layout_marginTop="32dp"
+        android:onClick="tambah"
         android:text="Tambah"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

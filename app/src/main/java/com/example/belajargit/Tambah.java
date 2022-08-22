@@ -30,7 +30,7 @@ public class Tambah extends AppCompatActivity {
     }
 
     public void kembali(View v){
-        startActivity(new Intent(Tambah.this, MainActivity.class;));
+        startActivity(new Intent(Tambah.this, MainActivity.class));
         finish();
     }
 }
