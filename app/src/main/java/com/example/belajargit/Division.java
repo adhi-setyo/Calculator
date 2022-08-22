@@ -29,7 +29,7 @@ public class Division extends AppCompatActivity {
     }
 
     public void kembali(View v){
-        startActivity(new Intent(Tambah.this, MainActivity.class));
+        startActivity(new Intent(Division.this, MainActivity.class));
         finish();
     }
 }

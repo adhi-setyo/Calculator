@@ -23,4 +23,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, kurang.class);
         startActivity(intent);
     }
+
+    public void bagi(View v){
+        Intent intent = new Intent(MainActivity.this, Division.class);
+        startActivity(intent);
+    }
 }
